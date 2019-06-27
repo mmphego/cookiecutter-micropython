@@ -1,0 +1,9 @@
+{
+    "wifi_config": {
+        "ssid": "{{ cookiecutter.wifi_ssid }}",
+        "password": "{{ cookiecutter.wifi_password }}"
+    },
+    "MQTT_config": {
+        "Host": "{{ cookiecutter.mqtt_host}}"
+    },
+}
